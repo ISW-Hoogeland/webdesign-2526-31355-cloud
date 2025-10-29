@@ -1,7 +1,28 @@
 /************************* DEBUG SETTINGS *************************/
 
+:root {
+    --blue: #2ac4df;
+    --Red: #b34b4b;
+    --Green: #43be57;
+    --white: #ffffff;
+    --Black: #0e0202;
+    --Darkblue: #17217e;
 
+
+
+
+}
+nav ul {
+list-style: none;
+}
+nav a {
+text-decoration: none;
+}
+nav a:hover {
+text-decoration: underline;
+}
 body {
+    background-color:var(--white);
 display: grid;
 grid-template-areas:
 "header nav"
@@ -21,4 +42,15 @@ grid-area: main;
 }
 footer {
 grid-area: footer;
+}
+
+:root {
+    --blue: #2ac4df;
+    --Red: #b34b4b;
+    --Green: #43be57;
+    --white: #ffffff;
+    --Black: #0e0202;
+
+
+
 }
