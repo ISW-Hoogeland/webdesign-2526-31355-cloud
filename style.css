@@ -25,8 +25,8 @@ body {
     background-color:var(--white);
 display: grid;
 grid-template-areas:
-"header nav"
-"main main"
+"header header"
+"main nav"
 "footer footer";
 grid-template-columns: 1fr 2fr;
 grid-template-rows: 120px 1fr 60px;
@@ -44,13 +44,7 @@ footer {
 grid-area: footer;
 }
 
-:root {
-    --blue: #2ac4df;
-    --Red: #b34b4b;
-    --Green: #43be57;
-    --white: #ffffff;
-    --Black: #0e0202;
-
-
-
+nav ul li{
+    margin: 20px;
 }
+
