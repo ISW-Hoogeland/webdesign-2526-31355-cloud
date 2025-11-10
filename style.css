@@ -8,9 +8,6 @@
     --Black: #0e0202;
     --Darkblue: #17217e;
 
-
-
-
 }
 nav ul {
 list-style: none;
@@ -33,6 +30,7 @@ grid-template-rows: 120px 1fr 60px;
 }
 header {
 grid-area: header;
+
 }
 nav {
 grid-area: nav;
@@ -46,5 +44,18 @@ grid-area: footer;
 
 nav ul li{
     margin: 20px;
+}
+h1 {
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px; 
+  color:white;
+  background: linear-gradient(90deg,#ffd1a1,#f49ac2,#b790d4 );
+  text-shadow: 0 0 10px #ffd1a1, 0 0 20px #f49ac2, 0 0 30px #b790d4d4;
+  padding: 20px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px black;
 }
 
