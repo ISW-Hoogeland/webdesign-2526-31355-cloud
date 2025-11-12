@@ -7,6 +7,9 @@
     --white: #ffffff;
     --Black: #0e0202;
     --Darkblue: #17217e;
+    --Roze:#f49ac2;
+    --Paars: #b790d4;
+    --Oranje: #ffd1a1;
 
 }
 nav ul {
@@ -40,6 +43,9 @@ header{
   padding: 30px 32px;
   border-radius: 22px;
   box-shadow: 0 2px 10px black;
+}
+main{
+font-style: normal;
 }
 header {
 grid-area: header;
