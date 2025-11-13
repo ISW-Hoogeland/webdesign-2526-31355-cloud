@@ -10,7 +10,6 @@
     --Roze:#f49ac2;
     --Paars: #b790d4;
     --Oranje: #ffd1a1;
-
 }
 nav ul {
 list-style: none;
@@ -46,18 +45,25 @@ header{
 }
 main{
 font-style: normal;
+color:#b790d4;
+padding-top: 10px;
+border-top: #b790d4;
+margin-top: 2px;
 }
 header {
 grid-area: header;
 }
 nav {
 grid-area: nav;
+color:#f49ac2;
+margin-top: 11px;
 }
 main {
 grid-area: main;
 }
 footer {
 grid-area: footer;
+color:#ffd1a1;
 }
 
 nav ul li{
