@@ -46,26 +46,37 @@ header{
 }
 main{
 font-style: normal;
-color:#b790d4;
+color:var(--Paars);
 padding-top: 10px;
 grid-area: main ;
 }
 
 nav {
 grid-area: nav;
-color:#f49ac2;
+color:var(--Roze);
 margin-top: 11px;
 background-color:var(--white);
 }
 
 footer {
 grid-area: footer;
-color:#ffd1a1;
+color:var(--Oranje);
 background-color:var(--white);
+margin-top: 13px;
 }
 
 nav ul li{
     margin: 15px;
 }
-
+table {
+border-collapse: collapse
+width: auto; 
+}
+thead th {
+background-color:var(--Roze);
+color: white
+}
+tbody td {
+border: 1px solid var(--Roze)
+}
 
