@@ -1,12 +1,8 @@
 /************************* DEBUG SETTINGS *************************/
 
 :root {
-    --blue: #2ac4df;
-    --Red: #b34b4b;
-    --Green: #43be57;
     --white: #ffffff;
     --Black: #0e0202;
-    --Darkblue: #17217e;
     --Roze:#f49ac2;
     --Paars: #b790d4;
     --Oranje: #ffd1a1;
@@ -31,7 +27,7 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 120px 1fr 60px;
 }
 header{
-    font-family: "Comfortaa", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
@@ -46,9 +42,11 @@ header{
 }
 main{
 font-style: normal;
+font-family: "Comfortaa", sans-serif;
 color:var(--Paars);
 padding-top: 10px;
 grid-area: main ;
+margin-left: 15px;
 }
 
 nav {
@@ -56,13 +54,16 @@ grid-area: nav;
 color:var(--Roze);
 margin-top: 11px;
 background-color:var(--white);
+font-family: "Comfortaa", sans-serif;
 }
 
 footer {
 grid-area: footer;
 color:var(--Oranje);
 background-color:var(--white);
-margin-top: 13px;
+margin-top: 30px;
+margin-left: 15px;
+font-family: "Comfortaa", sans-serif;
 }
 
 nav ul li{
